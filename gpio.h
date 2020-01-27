@@ -9,6 +9,7 @@
 #define GPIO_H_
 
 #include "std_types.h"
+#include "registers.h"
 
 #define GPIOA	0
 #define GPIOB	1
@@ -174,7 +175,6 @@ void gpioPinToggle(uint8_t u8_port, uint8_t u8_pins);
  * @return
  */
 uint8_t gpioPinRead(uint8_t u8_port, uint8_t u8_pin);
-
 
 
 #endif /* GPIO_H_ */
